@@ -1,5 +1,3 @@
-pip install pygame
-
 import pygame
 
 # Inicializa todos os módulos do Pygame
