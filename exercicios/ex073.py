@@ -1,0 +1,12 @@
+brasileirao = ('Palmeiras', 'Flamengo', 'Bragantino', 'Cruzeiro', 'Fluminense', 'Ceará', 'Atlético-MG', 'Bahia', 'Botafogo', 'Corinthians', 'Fortaleza', 'Mirassol', 'Internacional', 'Vitória', 'Grêmio', 'São Paulo', 'Vasco', 'Juventude', 'Santos', 'Sport')
+
+print('-=' * 15)
+print(f'Lista de times do Brasileirão: {brasileirao}')
+print('-=' * 15)
+print(f'Os 5 primeiros são {brasileirao[0:5]}')
+print('-=' * 15)
+print(f'Os 4 últimos são {brasileirao[16:20]}')
+print('-=' * 15)
+print(f'Times em ordem alfabética: {sorted(brasileirao)}')
+print('-=' * 15)
+print(f'O Corinthians esta na {brasileirao.index('Corinthians') + 1}° posição')
