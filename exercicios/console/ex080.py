@@ -8,7 +8,7 @@ for c in range(0, 5):
     else:
         inserido = False                  #criar uma variavel e definir como falso, flag
         for pos, n in enumerate(valores): #para cada posição e numero em valores:
-            if num < n:                   #se num for menor que n                     
+            if num < n:                   #se num for menor que n                    
                 valores.insert(pos, num)  #inserir num na posição pos
                 inserido = True           #marca inserido como verdadeiro
                 print(f'Adicionado na posição {pos} da lista...')
